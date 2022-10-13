@@ -1,0 +1,57 @@
+<h1>HTML</h1>
+<!-- img  -->
+
+<!-- <img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_260,h_150/https://assets.ubuntu.com/v1/fe859a7f-Jammy+Jellyfish+RGB.svg" alt="Ubuntu Gorseli">
+
+<img src="https://picsum.photos/260/150" alt="Lorem Picsum"> -->
+
+<img width="300" height="300" src="images/lorempicsum1.jpg" alt="Klavye">
+
+<img src="images/lorempicsum2.jpg" alt="Agac">
+
+<!-- <img src="../" alt="">       ../ bir üst dizine gecmeyi saglar-->
+
+<img src="images/lorempicsum2.jpg" title="Agac"> <!-- title="" gorselin uzerine geline bilgilendirme cikar-->
+
+<!-- width = "300" veya height = "400" veya ikisi birden veya height = "%100" -->
+
+<img src="images/lorempicsum1.jpg" border = "5"> <!--5 pixel kalınlıkta border verir-->
+
+<img src="images/lorempicsum2.jpg" align = "left"> <!--resmin gozukecegi pozisyonu belirlemek icin kullanilir-->
+
+<a href="listeler.html">
+    <img src="images/lorempicsum1.jpg" alt="falan" style="width:42px;height:42px">
+</a>
+<!-- gorsele link vermek icin kullanildi -->
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="images/lorempicsum3.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" title="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" title = "Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" title="Cup of coffee" href="coffee.htm">
+</map>
+<!-- Koordinatlara gore link verme icin kullanildi -->
+
+<img src="images/lorempicsum1.jpg" onload="resimYuklendi()">
+<script>
+    function resimYuklendi(){
+        alert("Resim yüklendi.");
+    }
+</script>
+<!-- Resim yuklenince ekrana resim yuklendi uyarisi gelecek -->
+
+<picture>
+    <source 
+    srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" media="(min-width: 800px)">
+
+    <img src="/images/lorempicsum1.jpg" alt="">
+</picture>
+<!-- 
+    Min:width 800px'ten kucukse srcset icerisindeki gorsel gozukecek 
+    aksi durumda ise img icerisindeki gozukecek (picture ozelligi sayesinde)
+-->
+
