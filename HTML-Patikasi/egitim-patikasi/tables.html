@@ -1,0 +1,133 @@
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse:collapse;
+        text-align: left;
+    }
+    th, td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+    table{
+        border-spacing: 30px;
+    }
+
+    /* odd, even */
+    tr:nth-child(odd) {
+        background-color: #D6EEEE;
+    }
+    
+    td:nth-child(even), th:nth-child(even) {
+        background-color: #0a8585;
+    }
+    tr {
+        border-bottom: 1px solid #ddd;
+    }
+    tr:hover {background-color: #f35f3a;}
+
+    </style>
+
+    
+
+<table style="width:100%">
+    <tr> <!--first row-->
+        <th style="width:50%">Company</th> <!-- first column-->
+        <th>Contact</th> <!--second column-->
+        <th>Country</th> <!--third column-->
+    </tr>
+    <tr style="height: 100px;"> <!--second row-->
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr> <!--third row-->
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+</table>
+
+<br>
+
+<!-- <td></td> Content of the table cell -->
+
+<!-- <tr></tr> Row starts and ends -->
+
+<!-- <th></th> Bold and centered -->
+
+<caption>Names</caption>
+
+<table>
+    <tr>
+      <th 
+        colspan="2">Name <!--span two columns-->
+      </th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
+<br>
+
+<!-- rowspan -> span two rows -->
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>Jill Smith</td>
+    </tr>
+    <tr>
+      <th 
+  rowspan="2" 
+  >Phone</th>
+      <td>555-77854</td>
+    </tr>
+    <tr>
+      <td>555-77854</td>
+    </tr>
+  </table>
+<br>
+
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <td>Jill</td>
+      <td>Eve</td>
+    </tr>
+    <tr>
+      <th>Lastname</th>
+      <td>Smith</td>
+      <td>Jackson</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>94</td>
+      <td>50</td>
+    </tr>
+  </table>
+
+  <table style="width:100%">
+    <caption>Monthly savings</caption>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$50</td>
+    </tr>
+  </table>
+  
