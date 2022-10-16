@@ -1,0 +1,32 @@
+/*********** Layout ***********/
+
+body {
+    color:green;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-style:italic;
+
+}
+
+h1 {
+    color:red;
+    font-size:36px;
+    text-transform: uppercase;
+}
+
+p {
+    color:blue;
+    font-size: 20px;;
+}
+
+ul{
+    color: purple;
+    font-size: 2.5em; /* 40px/16 = 2.5em*/
+
+    /* 
+    em ve % bağıl ölçü birimleridir. Yani body elemanında varsayılan (default) font büyüklüğünüze (font-size) bağlı büyüme-küçülme gösteren ölçülerdir. em'in %'den ayrılan yanı varsayılan font büyüklüğünde ve font ailesinde (font-family) yer alan “M” harfinin genişliğini baz almasıdır.  */
+
+    /* Önemli Dipnot! 
+    Kullanıcı ekranı yaklaştırdığında yada yazı varsayılan yazı tipini değiştirdiğinde px ölçü birimi kesinlikle değişmeyecektir ancak em yada rem yapıldığında yeniden boyutlandırma yaparak kullanıcıya daha iyi bir deneyim sunacaktır. 
+    */
+}
