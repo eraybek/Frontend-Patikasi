@@ -1,0 +1,29 @@
+/* id selector */
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+/* class selector */
+.center {
+    text-align: center;
+    color: red;
+  }
+p.center {
+    text-align: center;
+    color: red;
+}
+
+/* universal selector */
+* {
+    text-align: center;
+    color: blue;
+  }
+
+/* grouping selector */
+h1, h2, p {
+    text-align: center;
+    color: red;
+  }
+
+

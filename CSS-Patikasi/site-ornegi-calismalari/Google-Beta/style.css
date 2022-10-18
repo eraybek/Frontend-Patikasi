@@ -1,0 +1,24 @@
+.box {
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    height: 60px;
+    margin: 0.5px auto;
+}
+
+.btn {
+    background-color: gray;
+    box-sizing: border-box;
+    width: 100px;
+    height: 18px;
+    float:left;
+    padding: 0;
+    margin-right: 2%;
+}
+
+input {
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+

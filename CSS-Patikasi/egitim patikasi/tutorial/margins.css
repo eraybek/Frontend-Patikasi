@@ -1,0 +1,33 @@
+p.one {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+p.two {
+    margin: 25px 50px 75px 100px;
+}
+
+/* You can set the margin property to auto to horizontally center the element within its container.
+ */
+
+div {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/* This example lets the left margin of the <p class="ex1"> element be inherited from the parent element (<div>):
+ */
+ div {
+    border: 1px solid red;
+    margin-left: 100px;
+  }
+  
+  p.ex1 {
+    margin-left: inherit;
+  }
+
+  
+

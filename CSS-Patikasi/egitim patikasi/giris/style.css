@@ -1,0 +1,90 @@
+/******* Layout  *******/
+
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+/* li:first-child {
+    color:green;
+}
+li:last-child {
+    color:aqua;
+} */
+
+
+a[href*="https"][href$="com"] {
+    color: rgb(68, 0, 255);
+}
+
+div[class$="test"] {
+    background: yellow;
+  }
+
+
+a[href *= "http"] {
+    color: palegreen;
+  }
+
+a[href ^= "https"] {
+    color: palegreen;
+  }
+
+div[title~="isim"] {
+    background-color: pink;
+  }
+
+div[title="deneme"] {
+    background-color: green;
+  }
+
+.btn[disabled] {
+    color: orchid;
+  }
+
+[name]{
+    color: orange;
+  }
+
+*{ /*genel seçici*/
+    color:orange;
+  }
+
+li:nth-child(3) {
+    background:red;
+}
+
+li:nth-child(even) {
+    color:aqua;
+}
+
+li:nth-child(2n+1) {
+    color:green;
+}
+
+.color-blue.fw-normal {
+    color:blue;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #a57777;
+}
+
+#first-article {
+    font-size: 40px;
+}
+
+.text-red{
+    color:red;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30{
+    font-size: 30px;
+}

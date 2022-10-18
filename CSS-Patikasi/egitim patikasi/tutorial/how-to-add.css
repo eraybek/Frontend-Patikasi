@@ -1,0 +1,30 @@
+/*
+There are three ways of inserting a style sheet:
+
+External CSS
+Internal CSS
+Inline CSS
+
+*/
+
+/* external css 
+External styles are defined within the <link> element, inside the <head> section of an HTML page.
+*/
+
+/* internal css 
+Internal styles are defined within the <style> element, inside the <head> section of an HTML page.
+*/
+
+/* inline css 
+Inline styles are defined within the "style" attribute of the relevant element.
+*/
+
+/* If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used. 
+*/
+
+ /* Cascading Order
+1. Inline style (inside an HTML element)
+2. External and internal style sheets (in the head section)
+3. Browser default
+*/
+

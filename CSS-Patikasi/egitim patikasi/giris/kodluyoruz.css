@@ -1,32 +1,64 @@
-/*********** Layout ***********/
-
 body {
-    color:green;
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
-    font-style:italic;
-
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color:red;
-    font-size:36px;
-    text-transform: uppercase;
+.clear {
+    clear: both;
 }
 
-p {
-    color:blue;
-    font-size: 20px;;
+.container {
+    width: 1000px;
+    margin: 50px auto 0; /* yukarı aşağı 0, sağ ve sol auto*/
+
+}
+.left-bar {
+    width:200px;
+    float:left;
 }
 
-ul{
-    color: purple;
-    font-size: 2.5em; /* 40px/16 = 2.5em*/
-
-    /* 
-    em ve % bağıl ölçü birimleridir. Yani body elemanında varsayılan (default) font büyüklüğünüze (font-size) bağlı büyüme-küçülme gösteren ölçülerdir. em'in %'den ayrılan yanı varsayılan font büyüklüğünde ve font ailesinde (font-family) yer alan “M” harfinin genişliğini baz almasıdır.  */
-
-    /* Önemli Dipnot! 
-    Kullanıcı ekranı yaklaştırdığında yada yazı varsayılan yazı tipini değiştirdiğinde px ölçü birimi kesinlikle değişmeyecektir ancak em yada rem yapıldığında yeniden boyutlandırma yaparak kullanıcıya daha iyi bir deneyim sunacaktır. 
-    */
+.content {
+    width: 800px;
+    float:left;
+    height: auto;
 }
+
+.card {
+    width: 21%;
+    float:left;
+    padding: 5%;
+    margin-right: 2%;
+    background-color: gray;
+    border-radius:10px;
+}
+
+.box {
+
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    float:left; /* yanyana geldi kutular */
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color:yellow;
+}
+
+/*
+padding: 10px 20px 30px 40px;
+ -> Burada üst boşluk 10px,sağ boşluk 20px,alt boşluk 30px ve sol    boşluk 40px dir.
+padding: 10px 20px 30px;
+ -> Üst boşluk 10px,sağ ve sol boşluk 20px,alt boşluk 30px dir. 
+padding: 10px 20px;
+ -> Üst ve alt boşluk 10px,sağ ve sol boşluk 20px 
+ */
