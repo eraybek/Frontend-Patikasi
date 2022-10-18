@@ -6,6 +6,7 @@ Google 1996 yılında kuruldu ve ilk versiyonunu 1998 yılında yayınladı. Way
 
 
 Ben de şu ana kadar öğrendiklerime dayanarak bu siteyi HTML ve CSS kullanarak yapmaya çalıştım:
+
 ![Google Ana Sayfa](img/google-beta.PNG)
 
 <ul>
