@@ -1,2 +1,2 @@
-# mediumbootstrapclone
-Simple HTML Medium clone made with Bootstrap.
+# linkedinbootstrapclone
+Simple HTML Linkedin clone made with Bootstrap.
