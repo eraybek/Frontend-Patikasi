@@ -10,5 +10,10 @@ Ben de şu ana kadar öğrendiklerime dayanarak bu siteyi HTML ve CSS kullanarak
 ![Google Ana Sayfa](img/google-beta.PNG)
 
 <ul>
-    <li>Butonlar ve input alanları şuan için çalışmamakta. Öğrenme sürecimde kaydettiğim ilerleme doğrultusunda Google Beta'da düzenleme ve günümüzde kullanılan Google ana sayfasını yapacağım.</li>
+    <li>
+        Henüz JavaScript öğrenme sürecinde olduğum için interaktif bölgeler çalışmamaktadır. Bu süreçte kaydettiğim ilerleme doğrultusunda Google Beta'da düzenleme yapacağım.
+    </li>
+    <li>
+        Tasarladığım Google güncel sürümüne "Google-Homepage" dizininden erişebilirsiniz.
+    </li>
 </ul>
