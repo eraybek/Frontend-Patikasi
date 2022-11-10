@@ -6,6 +6,7 @@
 <h4 >Screenshot:</h4>
 
 
-<img style = "width:auto; length:auto; border-style: outset; border-color: coral;
-  border-width: 7px; " src="img/Js-clock.jpg" alt="Patika.dev" width="160">
+  ![](img/js-clock.jpg)
+
 </div>
+
