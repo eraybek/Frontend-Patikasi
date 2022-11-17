@@ -10,11 +10,14 @@ function helloWorld() {
 
 hello() // calistir
 
+// ************ //
 
 function printHello(name){ //name adında bir parametre aldı
     console.log("Merhaba " + name)
 }
 printHello("Eray");  // bir argüman vererek fonksiyonu çağırdık.
+
+// ************ //
 
 function addition(sayi1,sayi2){  //function name and parameters
     console.log(sayi1+sayi2);     //body
@@ -28,6 +31,7 @@ function toplama(sayi1,sayi2){
 var add = toplama(1,2);
 console.log(add)
 
+// ************ //
 
 //global değişkenleri tanımlıyoruz
 var sayi1 = 5;
