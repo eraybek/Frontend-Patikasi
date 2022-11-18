@@ -88,5 +88,36 @@ function printScreen1() {
 
  printScreen2(printScreen1, printScreen3);
 
+// *** example 1 ***
 
+function greetings(firstName) {
+    console.log(`Merhaba ${firstName ? firstName : ""}`)
+}
+greetings() // Merhaba
+
+//or
+
+function greetings2(firstName = ""){
+    console.log(`Merhaba ${firstName ? firstName : ""}`)
+}
+greetings("Apple") // Merhaba Apple
+
+// *** example 2 ***
+
+function greetings3(firstName, lastName){
+    let info = `Merhaba ${firstName} ${lastName}`
+    return info // fonksiyon cagrildiginda info'yu döndürür
+}
+let greetingsInfo = greetings2("Eray","Aybek")
+console.log(greetingsInfo) // Merhaba Eray Aybek
+
+// *** example 3 ***
+
+function domIdWriteInfo(id, info){
+    let domObject = document.querySelector(`#${id}`)
+    domObject.innerHTML = info
+}
+// Index.html dosyasi icerisindeki "id"ye sahip bir html ogesinin icerisine gerekli "info" bilgisini kolay bir sekilde tek bir fonksiyonla yazdirmis olduk. 
+domIdWriteInfo('greeting', 'Merhaba') 
+domIdWriteInfo('greeting', greetings3("Lorem","Ipsum"))
 
