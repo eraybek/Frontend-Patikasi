@@ -1,11 +1,7 @@
 // *** To-Do-List Js ***
 
-ekleButonDOM = document.querySelector("#ekle")
 textDOM = document.querySelector("#task")
 listDOM = document.querySelector("#list")
-elementDOM = document.querySelector("#element")
-
-let toDoList = []
 
 function addFunc(){
     if (textDOM.value != Boolean(textDOM.value.trim())){
